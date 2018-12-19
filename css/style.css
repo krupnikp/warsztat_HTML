@@ -473,6 +473,9 @@ body {
 /* -------------------------------------------- */
 /* kalkulator */
 /* -------------------------------------------- */
+.title {
+    margin: 0px;
+}
 
 .application {
     background-color: #f9f9f9;
@@ -496,7 +499,7 @@ body {
 }
 
 
-.form1 {
+.form_calc {
     margin-top:50px;
 }
 .drop_down_list {
@@ -577,8 +580,13 @@ body {
 }
 .image_part img{
     margin-top: 110px;
-    margin-left: 38px;
+    width: 100%;
 }
+.image_part {
+    width: 350px;
+    height: 400px;
+}
+
 
 
 .application .green_bell {
@@ -701,8 +709,15 @@ body {
     color: #585858;
 }
 
-.title {
-    height: 30px;
+.warning {
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+    color: red;
+}
+
+.visible {
+    display: block;
 }
 
 /* -------------------------------------------- */
